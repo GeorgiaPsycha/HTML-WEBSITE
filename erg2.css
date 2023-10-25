@@ -1,0 +1,68 @@
+body{
+	height: 200px;
+	background-image: linear-gradient(to left,#3090C7,white);
+	background:cover;
+	font-family:arial, sans-serif ;
+	margin:0;
+	padding:10;
+	}
+#nav {
+	float:left;
+	margin:0;
+	padding:0;
+	border : 1px sold white;
+	border-bottom: none;
+	}
+	
+#nav li , #nav li a{
+	float:left
+	}
+#nav li{
+	list-style: none;
+	position:relative;
+	
+	}
+#nav li a{
+	padding:14px 28px;
+	text-decoration:none;
+	color:white ;
+	background:black;	
+	border-right:0 solid ;
+	border-left:0 solid;
+	border-bottom: solid;
+	
+	}
+#nav li a:hover {
+	background:grey;
+	}
+	
+#table,th,td {border: 1px solid black;
+						 border-collapse: collapse;
+			}
+			
+#nav1 li , #nav1 li a{ 
+	float:left;
+	color : blue ; 
+	
+}
+
+
+	
+
+.img1{
+	float:right;
+	height:450;
+	width:587;
+}
+.img2{
+	height:170;
+}
+.img3{
+	width:387;
+	height:150;
+}
+.img4{
+	width:387;
+	height:250;
+}
+
